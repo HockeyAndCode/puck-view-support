@@ -1,55 +1,65 @@
 # Getting started and troubleshooting
 
-Puck View helps you practise stickhandling with your head up. Your iPhone shows the target; your Watch recognizes calibrated wrist movements. It does not track the puck or check contact with your stick.
+Your iPhone shows the target; your Watch recognizes calibrated wrist movements. Puck View does not track the puck or check stick contact.
+
+> Drills with sets and transition recordings need a newer build than TestFlight 1.0 (6). Check your build’s **What to Test** notes.
 
 ## Set up
 
-1. Wear your Watch on your **bottom hand** on the stick. Top-hand use has not yet been validated.
-2. Put the iPhone where you can see it without looking down at the puck. Keep enough clear space to reach around your stance.
-3. Open Puck View on both devices. Allow motion and workout access if asked. If the Watch shows **Start**, tap it.
+1. Wear the Watch on your **bottom hand** on the stick. Top-hand use is untested.
+2. Place the phone where you can keep your head up. Leave room to reach around your stance.
+3. Open Puck View on both devices. Allow motion and workout access if asked. Tap **Start** on the Watch if shown.
 
-Keep the same grip and stance during calibration and practice. Left and right always mean your physical left and right, whichever way you shoot.
+Keep the same grip and stance. Left and right mean your physical left and right, whichever way you shoot.
 
-## Calibrate this Watch session
+## Calibrate every Watch session
 
-On the iPhone, open **Watch calibration**, check your wrist, shooting hand, Watch hand and crown-side choices, then tap **Start calibration**.
+Open **Watch calibration**, check your hand and Watch setup, then tap **Start calibration**.
 
-Use the grip countdown to get both hands on the stick. At each named position, follow the countdown and Watch vibrations, then stickhandle normally while it records. The five positions are Front left, Front center, Front right, Rear left and Rear right. Rear positions are behind your body on each side.
+Get both hands ready during the grip countdown. Follow the countdown and vibrations, then stickhandle normally at each named position while it records: Front left, Front center, Front right, Rear left and Rear right. Rear positions are behind your body on each side.
 
-When the screen says **Calibration passed**, go to **Train**. Watch-assisted targets turn green when your wrist movement matches the requested position. Keep the puck moving and follow the next target. The separate Timed drill works without a Watch and does not check your movement.
+After **Calibration passed**, go to **Train**. Calibrate again whenever the Watch session restarts; an old recording cannot replace that session’s calibration.
 
-Calibrate again whenever the Watch session restarts. Stopping and starting the Watch app's session creates a new reference; an earlier recording cannot replace that session's calibration.
+## Choose a drill
 
-## “Too similar” or “Repeat these positions”
+Choose a level: **Front**, **Front to back**, or **Reaction**. Start in front, then add reaches behind your body. Random mover asks for a different position each time.
 
-The recording did not clearly separate the named wrist movements, or a position changed during recording or differed from an earlier calibration.
+Work through each set’s targets. Stickhandle at the named position until it turns green, then follow the next target after the success pause. Rest between sets, or use **Skip rest**. The summary shows targets reached and response times: wrist-motion confirmation time, not puck speed or technique.
 
-Return to your normal stance and grip. Follow the named positions and dribble there for the full recording. Repeat the requested positions; don't try to hold your wrist perfectly still. If the message keeps returning, pause and contact support with the exact wording and your setup. You don't need to exaggerate your wrist angle just to pass.
+Settings include rest time, success pause and success vibrations. The separate **Timed drill** works without a Watch and does not check movement.
+
+## Record transitions
+
+After **Calibration passed**, the optional **Record transitions** pass records ten moves in about two minutes. Stay in the same Watch session.
+
+Get ready during the countdown. Stickhandle at the first position when recording starts. About three seconds later, the Watch gives the **go** buzz: move to the second position and keep stickhandling until the end buzz. Follow the Watch cue.
+
+**Pause**, then **Resume**, retries the unfinished move. The summary shows recorded moves, confirmation time after the cue and other positions recognized on the way. It does not score the puck’s path. Export results from **Recordings** if you choose.
+
+## “Too similar” / “Repeat these positions”
+
+The named wrist movements were not clearly different, or a recording changed too much. Use your normal grip and stance; dribble at the requested positions for the full recording, then repeat those requested. Don’t hold perfectly still or exaggerate your wrist angle to pass. Contact support if it keeps happening.
 
 ## “Waiting for Watch data”
 
-Keep stickhandling at the requested position and keep the Watch near the phone. Leave Puck View open on both devices. The drill waits for fresh data before accepting another target.
+Keep stickhandling at the requested position. Keep the Watch near the phone and both apps open. The drill waits for fresh data.
 
-If it stays stuck, check that the Watch session is running and the devices are connected. Follow any **Retry** or **Calibrate again** instruction. Restarting the Watch session means calibrating again. You should not need to delete the app or unpair your Watch for a brief dropout.
+If stuck, check the Watch session and follow **Retry** or **Calibrate again**. Restarting the session requires recalibration. Don’t delete the app or unpair the Watch for a brief dropout.
 
 ## Recordings and deletion
 
-Calibration recordings, including failed attempts, stay locally on the iPhone. **Watch calibration → Recordings → Export recordings** lets you choose where to save or share a JSON copy of all retained recordings. Nothing is automatically sent to support.
+Recordings, including failed attempts, stay locally on the iPhone. **Watch calibration → Recordings → Export recordings** shares a JSON copy only when you choose. Nothing is automatically sent to support.
 
-There is currently no in-app delete control. To remove local recordings and preferences, use **iPhone Settings → General → iPhone Storage → Puck View → Delete App**, then confirm. **Offload App** keeps the recordings. This also removes your local calibrations. Export first if you want to keep a copy.
+There is no in-app delete control. Use **iPhone Settings → General → iPhone Storage → Puck View → Delete App** to remove local recordings and preferences. **Offload App** keeps them. Export first to keep a copy. Exported copies and backups must be managed separately. See the [privacy policy](privacy.md).
 
-Exported copies and existing backups are separate; manage them in the destination or backup settings. See the [privacy policy](privacy.md).
+## Install through TestFlight
 
-## Installing a TestFlight beta
+Install **TestFlight** on your paired iPhone and accept your invitation. Install Puck View on the phone first. Open its TestFlight **App Details**, then install the Watch app from the Apple Watch section. Keep both devices nearby and open both apps after updating. No Mac or Xcode is needed.
 
-Install Apple's **TestFlight** on the iPhone paired with your Watch, then accept your Puck View invitation there. Install or update Puck View on the iPhone first. In TestFlight, open Puck View's **App Details** and install the Watch app from the Apple Watch section. Keep both devices nearby while it finishes.
-
-Open Puck View on both devices after updating. You do not need Xcode or a Mac to run the TestFlight build. Check the build number and its **What to Test** notes: a beta can have fewer drills or different settings from a newer development version.
-
-If a build is missing, expired or won't install, contact support rather than deleting your recordings. Apple's [TestFlight instructions](https://testflight.apple.com/) cover invitation and Watch installation steps.
+For a missing or expired build, contact support; don’t delete your recordings. See [Apple’s TestFlight instructions](https://testflight.apple.com/).
 
 ## Need help?
 
-Email **cam.j.fitzpatrick@outlook.com** with the build number, phone and Watch models, Watch hand and shooting hand, and what the screen says. Share a recording only if you choose to and are comfortable sharing its contents.
+Email **cam.j.fitzpatrick@outlook.com** with your build number, device models, Watch hand, shooting hand and screen message. Share recordings only if you choose.
 
 [Back to support](index.md)
