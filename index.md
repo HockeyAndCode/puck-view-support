@@ -4,6 +4,8 @@ Thanks for using Puck View.
 
 Puck View is a hockey stickhandling training app designed to help players practice controlling the puck while keeping their head up.
 
+[Getting started and troubleshooting](getting-started.md) · [Privacy policy](privacy.md)
+
 ## Support
 
 If you have a question, encounter a problem, or have feedback about Puck View, please contact:
