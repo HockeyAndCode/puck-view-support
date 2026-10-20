@@ -2,7 +2,7 @@
 
 Your iPhone shows the target; your Watch recognizes calibrated wrist movements. Puck View does not track the puck or check stick contact.
 
-> Quick start, the Drill library and transition recordings need a newer build than TestFlight 1.0 (6). Check your build’s **What to Test** notes.
+> Quick calibration, the Drill library and transition recordings need a newer build than TestFlight 1.0 (6). Check your build’s **What to Test** notes.
 
 ## Set up
 
@@ -14,11 +14,11 @@ Keep the same grip and stance. Left and right mean your physical left and right,
 
 ## Calibrate every Watch session
 
-Open **Watch calibration** and check your hand and Watch setup. If offered, **Quick start** uses your saved full calibration with new recordings at Front center and Rear left. If it cannot line up your setup, choose **Start full calibration**. Without a saved calibration, start a full calibration.
+Open **Watch calibration** and check your hand and Watch setup. If offered, **Quick calibration** uses your saved full calibration with new recordings at Front center and Rear left. If it cannot line up your setup, choose **Start full calibration**. Without a saved calibration, start a full calibration.
 
 Get both hands ready during the grip countdown. Follow the countdown and vibrations, then stickhandle normally at each named position while it records: Front left, Front center, Front right, Rear left and Rear right. Rear positions are behind your body on each side.
 
-After **Calibration passed** or **Quick start passed**, go to **Train**. Each new Watch session needs Quick start or full calibration before Watch-assisted training.
+A successful full or Quick calibration takes you straight to training, or back to the training screen you came from. Each new Watch session needs Quick calibration or full calibration before Watch-assisted training.
 
 ## Choose a drill
 
@@ -32,9 +32,9 @@ Settings include rest time, success pause and success vibrations.
 
 ## Record transitions
 
-After successful full calibration or Quick start, the optional **Record transitions** pass records ten moves in about two minutes. Stay in the same Watch session.
+After successful full or Quick calibration, reopen **Watch calibration** and choose **Record transitions**. This optional pass records ten linked moves in about a minute. Stay in the same Watch session; each move starts where the previous one ended.
 
-Get ready during the countdown. Stickhandle at the first position when recording starts. About three seconds later, the Watch gives the **go** buzz: move to the second position and keep stickhandling until the end buzz. Follow the Watch cue.
+Get ready at the named starting position. A short tap marks recording; about one second later, the stronger **go** buzz means move to the next position. You have about three and a half seconds after that cue for the recording. Keep the puck moving and follow the Watch cue.
 
 **Pause**, then **Resume**, retries the unfinished move. The summary shows recorded moves, confirmation time after the cue and other positions recognized on the way. It does not score the puck’s path. Export results from **Recordings** if you choose.
 
@@ -46,7 +46,7 @@ The named wrist movements were not clearly different, or a recording changed too
 
 Keep stickhandling at the requested position. Keep the Watch near the phone and both apps open. The drill waits for fresh data.
 
-If stuck, check the Watch session and follow **Retry** or **Calibrate again**. Restarting the session requires Quick start or full calibration. Don’t delete the app or unpair the Watch for a brief dropout.
+If stuck, check the Watch session and follow **Retry** or **Calibrate again**. Restarting the session requires Quick calibration or full calibration. Don’t delete the app or unpair the Watch for a brief dropout.
 
 ## Recordings and deletion
 
