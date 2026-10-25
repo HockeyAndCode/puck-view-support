@@ -16,6 +16,6 @@ When reporting a problem, please include a brief description of what happened an
 
 ## About Puck View
 
-Puck View displays a moving puck on your device while you practice stickhandling. Follow the puck's position on the screen while keeping your eyes up and controlling the puck on your stick.
+Puck View lights up spots around you on your iPhone while you stickhandle, and your Apple Watch recognizes when you get there. Keep your eyes up, reach each spot and beat your best in the Timed Trial.
 
-See the [player guide](getting-started.md) for Watch setup, calibration, drills and troubleshooting. Available drills and settings depend on your installed build.
+See the [player guide](getting-started.md) for Watch setup, calibration, drills and troubleshooting.
