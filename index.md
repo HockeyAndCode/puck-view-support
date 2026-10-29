@@ -4,6 +4,8 @@ Thanks for using Puck View.
 
 Puck View is a hockey stickhandling training app designed to help players practice controlling the puck while keeping their head up.
 
+[Getting started and troubleshooting](getting-started.md) · [Privacy policy](privacy.md)
+
 ## Support
 
 If you have a question, encounter a problem, or have feedback about Puck View, please contact:
@@ -14,6 +16,6 @@ When reporting a problem, please include a brief description of what happened an
 
 ## About Puck View
 
-Puck View displays a moving puck on your device while you practice stickhandling. Follow the puck's position on the screen while keeping your eyes up and controlling the puck on your stick.
+Puck View lights up spots around you on your iPhone while you stickhandle, and your Apple Watch recognizes when you get there. Keep your eyes up, reach each spot and beat your best in the Timed Trial.
 
-Training options allow you to adjust the puck's speed, size, and color.
+See the [player guide](getting-started.md) for Watch setup, calibration, drills and troubleshooting.
